@@ -1,1 +1,101 @@
 @import url(reset.css);
+
+.page {
+	width: 1440px;
+	background-color: white;
+}
+
+.header {
+	height: 60px;
+	background-color: #FE1A19;
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: "Helvetica";
+	font-style: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: white;
+}
+
+
+.main1 {
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px; 
+	font-family: "Times New Roman";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	margin-top: 122px;
+	margin-right: 50px;
+	margin-left: 70px;
+	padding-top: 33px;
+	padding-left: 33px;
+	display: inline-block;
+}
+
+.main2 {
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px; 
+	font-family: "Times New Roman";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	margin-top: 122px;
+	margin-right: 50px;
+	padding-top: 33px;
+	padding-left: 33px;
+	display: inline-block;
+}
+
+
+.main3 {
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	margin-top: 122px; 
+	font-family: "Times New Roman";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	padding-top: 33px;
+	padding-left: 33px;
+	display: inline-block;
+}
+
+
+
+
+h2 {
+	font-family: "Helvetica";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	margin-bottom: 41px;
+
+}
+
+.footer {
+	height: 60px;
+	background-color: #FE1A19;
+	box-sizing: border-box;
+	margin-top: 52px;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: "Helvetica";
+	font-style: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: white;
