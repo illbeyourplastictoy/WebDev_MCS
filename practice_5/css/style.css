@@ -38,6 +38,7 @@ body {
 	border-radius: 30px; 
 	text-align: left;
 	margin-top: 122px;
+	margin-bottom: 122px;
 	padding: 33px;
 	display: inline-block;
 }
@@ -51,6 +52,7 @@ body {
 	line-height: 23px;
 	margin-top: 122px;
 	margin-right: 50px;
+	margin-bottom: 122px;
 	margin-left: 50px;
 	padding: 33px;
 	display: inline-block;
@@ -64,6 +66,7 @@ body {
 	border-radius: 30px;
 	text-align: left;
 	margin-top: 122px;
+	margin-bottom: 122px;
 	padding: 33px;
 	display: inline-block;
 }
