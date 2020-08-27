@@ -87,6 +87,10 @@ h2 {
 
 }
 
+.h3 {
+margin-top: 15px;
+}
+
 .footer {
 	height: 60px;
 	background-color: #FE1A19;
@@ -99,3 +103,4 @@ h2 {
 	font-size: 20px;
 	line-height: 23px;
 	color: white;
+}
