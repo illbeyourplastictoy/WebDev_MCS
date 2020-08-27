@@ -6,6 +6,12 @@
 	line-height: 23px;
 }
 
+ :root {
+  --bcg-c: white;
+  --hf-c: #FE1A19;
+}
+
+
 body {
 	font-family: "Times New Roman";
 	font-style: normal;
@@ -14,12 +20,12 @@ body {
 }
 .page {
 	width: 1440px;
-	background-color: white;
+	background-color: var(--bcg-c);
 }
 
 .header {
 	height: 60px;
-	background-color: #FE1A19;
+	background-color: var(--hf-c);
 	padding-top: 20px;
 	padding-left: 20px;
 	font-family: "Helvetica";
@@ -88,7 +94,6 @@ margin-top: 15px;
 .footer {
 	height: 60px;
 	background-color: #FE1A19;
-	margin-top: 52px;
 	padding-top: 20px;
 	padding-left: 20px;
 	font-family: "Helvetica";
