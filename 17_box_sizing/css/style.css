@@ -1,0 +1,10 @@
+@import url(reset.css);
+
+div {
+	width: 1000px;
+	height: 1000px;
+	background-color: pink;
+	border: 5px dotted navy;
+	box-sizing: border-box;
+
+}
