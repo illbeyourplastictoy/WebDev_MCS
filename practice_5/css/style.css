@@ -6,8 +6,8 @@
 }
 
  :root {
-  --bcg-c: white;
-  --hf-c: #FE1A19;
+  --background-color: white;
+  --header_footer-color: #FE1A19;
 }
 
 
@@ -19,44 +19,42 @@ body {
 }
 .page {
 	width: 1440px;
-	background-color: var(--bcg-c);
+	background-color: var(--backgroung-color);
 }
 
 .header {
 	height: 60px;
-	background-color: var(--hf-c);
+	background-color: var(--header_footer-color);
+	font-family: "Helvetica";
 }
 
 h1 {
-	width: 820px;
-	height: 20px;
-	font-family: "Helvetica";
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 23px;
 	color: white;
-	padding-top: 20px;
-	margin-right: 600px;
-	margin-bottom: 20px;
+	font-size: 20px;
+    line-height: 60px;
 	margin-left: 20px;
 
 
 }
+
+li {
+	list-style: none;
+}
+
 .main {
 	text-align: center;
+	font-size: 0;
 }
 
 .column {
 	width: 400px;
-	height: 800px;
 	border: 5px solid #E5E000;
 	border-radius: 30px;
 	text-align: left;
 	display: inline-block;
-	margin-top: 122px;
-	margin-bottom: 122px;
+	margin: 122px 0;
 	padding: 33px;
+	font-size: 20px;
 
 }
 
@@ -70,25 +68,25 @@ h1 {
 h2 {
 	font-family: "Helvetica";
 	font-weight: bold;
+	font-size: 20px;
 	margin-bottom: 41px;
 
 }
 
 .h3 {
 margin-top: 15px;
+font-size: 20px;
 }
 
 .footer {
+	font-family: "Helvetica";
 	height: 60px;
-	background-color: var(--hf-c);
+	background-color: var(--header_footer-color);
 }
 
 .footer_text {
-	padding-top: 20px;
-	padding-left: 20px;
-	font-family: "Helvetica";
-	font-style: normal;
-	font-weight: bold;
 	color: white;
-
+	font-size: 20px;
+    line-height: 60px;
+	margin-left: 20px;
 }
