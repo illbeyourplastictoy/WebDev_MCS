@@ -10,6 +10,10 @@
   --header_footer-color: #FE1A19;
 }
 
+html { 
+	font-size: .8vw; 
+}
+
 
 body {
 	font-family: "Times New Roman";
@@ -18,21 +22,21 @@ body {
 
 }
 .page {
-	width: 1440px;
+
 	background-color: var(--backgroung-color);
 }
 
 .header {
-	height: 60px;
+	height: 6rem;
 	background-color: var(--header_footer-color);
 	font-family: "Helvetica";
 }
 
 h1 {
 	color: white;
-	font-size: 20px;
-    line-height: 60px;
-	margin-left: 20px;
+	font-size: 2rem;
+    line-height: 6rem;
+	margin-left: 2rem;
 
 
 }
@@ -41,52 +45,54 @@ li {
 	list-style: none;
 }
 
+
 .main {
 	text-align: center;
+	min-height: calc(100vh - 120px);
 	font-size: 0;
 }
 
 .column {
-	width: 400px;
-	border: 5px solid #E5E000;
-	border-radius: 30px;
+	width: 40rem;
+	border: 0.5rem solid #E5E000;
+	border-radius: 3rem;
 	text-align: left;
 	display: inline-block;
-	margin: 122px 0;
-	padding: 33px;
-	font-size: 20px;
+	margin: 12.2rem 0;
+	padding: 3.3rem;
+	font-size: 2rem;
 
 }
 
 
 
 .main2 {
-	margin-right: 50px;
-	margin-left: 50px;
+	margin-right: 5rem;
+	margin-left: 5rem;
 }
 
 h2 {
 	font-family: "Helvetica";
 	font-weight: bold;
-	font-size: 20px;
-	margin-bottom: 41px;
+	font-size: 2rem;
+	margin-bottom: 4.1rem;
 
 }
 
 .h3 {
-margin-top: 15px;
-font-size: 20px;
+margin-top: 1.5rem;
+font-size: 2rem;
 }
 
 .footer {
 	font-family: "Helvetica";
-	height: 60px;
+	height: 6rem;
 	background-color: var(--header_footer-color);
 }
 
 .footer_text {
 	color: white;
-	font-size: 20px;
-    line-height: 60px;
-	margin-left: 20px;
+	font-size: 2rem;
+    line-height: 6rem;
+	margin-left: 2rem;
 }
