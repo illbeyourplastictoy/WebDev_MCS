@@ -7,41 +7,6 @@ html {
 body {
 	font-family: Arial;
 	color: #E50043;
-
-
-}
-h1 {
-	flex-grow: 22;
-
-
-}
-a {
-	text-decoration: none;
-	color: #E50043;
-	flex-grow: 1;
-}
-
-main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-
-}
-
-h2 {
-	font-size: 10rem;
-	line-height: 11.5rem;
-	position: absolute;
-	text-align: center;
-
-
-
-
-
-
-
-
 }
 header {
 	height: 14rem;
@@ -51,12 +16,34 @@ header {
 	box-sizing: border-box;
 	display: flex;
 	justify-content:space-around;
+	align-items: center;
 	padding: 5rem 5rem;
+}
 
+h1 {
+	flex-grow: 22;
+}
 
+a {
+	text-decoration: none;
+	color: #E50043;
+	flex-grow: 1;
+}
 
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+h2 {
+	font-size: 10rem;
+	line-height: 11.5rem;
+	position: absolute;
+	text-align: center;
+}
 
-
-
+h3 {
+	text-align: center;
+	display: flex;
 }
