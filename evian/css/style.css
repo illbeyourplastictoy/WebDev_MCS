@@ -15,6 +15,10 @@ header {
 	justify-content: space-between;
 	box-sizing: border-box;
 	padding: 5rem;
+	position: fixed;
+	width: 100%;
+
+
 
 }
 
@@ -33,9 +37,6 @@ h1,a {
 	font-size: 10rem;
 	line-height: 114.9rem;
 	text-align: center;
+	
 }
 
-
-
-
-}
