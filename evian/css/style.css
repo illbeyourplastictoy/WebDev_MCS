@@ -1,1 +1,42 @@
 @import url(reset.css);
+
+html {
+	font-size: 62.5%
+}
+
+body {
+	font-family: Arial;
+
+
+}
+h1 {
+	flex-grow: 22;
+
+
+}
+a {
+	text-decoration: none;
+	color: #E50043;
+	flex-grow: 1;
+
+}
+
+
+header {
+	height: 14rem;
+	background-color: #FFFFFF;
+	color: #E50043;
+	font-size: 5rem;
+	line-height: 5.7rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content:space-around;
+	padding: 5rem 5rem;
+	
+
+
+
+
+
+
+}
