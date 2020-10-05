@@ -17,6 +17,7 @@ header {
 	padding: 5rem;
 	position: fixed;
 	width: 100%;
+	top: 0;
 
 
 
@@ -37,6 +38,49 @@ h1,a {
 	font-size: 10rem;
 	line-height: 114.9rem;
 	text-align: center;
+	margin-top: 14rem;
 	
 }
 
+.info {
+	height: 28rem;
+	box-sizing: border-box;
+	border: 0.3rem solid #F8BFC7;
+	border-radius: 2rem;
+	margin: 15rem 19.9rem 15rem 20.1rem;
+	padding: 2.4rem;
+
+
+}
+
+h3, p {
+	font-size: 2.5rem;
+	line-height: 2.9rem;
+}
+
+h3 {
+	margin-bottom: 2.5rem;
+}
+
+section.images {
+	box-sizing: border-box;
+	justify-content: center;
+}
+div.wang {
+	height: 86.3rem;
+	background-image: url(../img/wang.png);
+	background-repeat: no-repeat;
+
+}
+
+div.blue {
+	height: 86.3rem;
+	background-image: url(../img/blue.png);
+	background-repeat: no-repeat;
+}
+
+div.chiara {
+	height: 86.3rem;
+	background-image: url(../img/chiara.png);
+	background-repeat: no-repeat;
+}
